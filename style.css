@@ -1,0 +1,31 @@
+body {
+  background-color: whitesmoke;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100svh;
+}
+.button-wrapper {
+  display: flex;
+  gap: 20px;
+}
+img {
+  height: 200px;
+}
+input[type="button"] {
+  padding: 10px 20px;
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 5px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  background-color: rgb(32, 173, 0);
+  cursor: pointer;
+  transition: 1s;
+}
+#off {
+  background-color: red;
+}
